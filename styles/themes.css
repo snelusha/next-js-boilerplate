@@ -1,0 +1,18 @@
+:root {
+  --primary-color: 255 255 255;
+  --primary-light-color: 250 250 250;
+  --primary-dark-color: 245 245 245;
+
+  --secondary-color: 115 115 115;
+  --secondary-light-color: 163 163 163;
+  --secondary-dark-color: 23 23 23;
+
+  --divider-color: 243 244 246;
+  --divider-light-color: 245 245 245;
+  --divider-dark-color: 212 212 212;
+
+  --accent-color: 59 130 246;
+  --accent-light-color: 96 165 250;
+  --accent-dark-color: 37 100 235;
+  --accent-contrast-color: 255 255 255;
+}

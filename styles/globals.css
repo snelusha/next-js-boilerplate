@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+@import url("themes.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  @apply antialiased;
+  @apply bg-primary;
+  @apply text-xs font-normal text-secondary;
+  @apply select-none;
+  @apply overflow-x-hidden;
+  @apply scroll-smooth;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+input, button, a {
+  @apply font-medium;
+  @apply focus:outline-none;
+}
