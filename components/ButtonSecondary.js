@@ -29,7 +29,7 @@ export default function ({
         rounded && "rounded-full",
         reverse && "flex-row-reverse",
         disabled && "!text-secondary !bg-primary-light !opacity-75",
-        "inline-fled items-center justify-center font-medium text-secondary hover:text-secondary-dark py-2 rounded transition-colors whitespace-nowrap focus:outline-none",
+        "inline-flex items-center justify-center font-medium text-secondary hover:text-secondary-dark py-2 rounded transition-colors whitespace-nowrap focus:outline-none",
         className
       )}
       href={to}
